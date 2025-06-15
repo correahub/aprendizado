@@ -1,0 +1,8 @@
+body{
+  background-image: url(arquivos/images/wallpaper003.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px dashed black;
+  height: 98vh;
+}
+
