@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+.moldura {
+    position: relative;
+    background-color: purple;
+    height: 95vh;
+    padding: 10px;
+    background-image: url(arquivos/images/target001.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pintura {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: yellow;
+    height: 250px;
+    width: 400px;
+    background-image: url(arquivos/images/target001.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    transform: translate(-50%, -50%);
+
+}
