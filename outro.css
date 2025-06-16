@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    border: 1px dashed black;
+    /*imagem de fundo*/
+    background-image: url(arquivos/images/wallpaper003.jpg);
+    /*Ela n ira se repetir*/
+    background-repeat:no-repeat;
+    /*tamanho*/
+    background-size: cover;
+    /*centralizada*/
+    background-position: center center;
+    /*cor letras*/
+    color: white;
+    /*posição do fundo ao todo ou rolado*/
+    background-attachment: fixed;
+}
