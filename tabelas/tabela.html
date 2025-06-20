@@ -3,46 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tabelas</title>
+    <style>
+
+        col.área{
+            background-color: black;
+            color: red;
+        }
+    </style>
   </head>
   <body>
-    <table border="1">
-        <caption> Lista de Notas</caption>
-    
-        <thead>
-            <th rowspan="2">área</th>
-            <th rowspan="2">disciplinas</th>
-            <th colspan="2">notas</th>
-            
-            <th rowspan="2">média</th>
-            <tr>
-                <td>nota1</td>
-                <td>nota2</td>
-            </tr>
-        </thead>
-        <tbody>          
-    
+    <table>
+      <caption>
+        Lista de Notas
+      </caption>
+
+      <colgroup>
+        <col class="c1" />
+      </colgroup>
+
+      <thead>
+        <th rowspan="2" scope="col">área</th>
+        <th rowspan="2" scope="col">disciplinas</th>
+        <th colspan="2" scope="colgroupcol">notas</th>
+        <th rowspan="2" scope="col">média</th>
         <tr>
-            <th rowspan="4">exatas</th>
-            <td>matemática</td> <td>0.0 </td><td>0.0</td> <td>0.0</td>
-            <tr><td>física</td> <td>0.0</td> <td>0.0</td> <td>0.0</td></tr>
-            <tr><td>química</td> <td>0.0</td> <td>0.0</td> <td>0.0</td></tr>
-            <tr><td>biologia</td> <td>0.0</td> <td>0.0</td> <td>0.0</td></tr>
+          <th scope="col">nota1</th>
+          <th scope="col">nota2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="4" scope="rowgroup">exatas</th>
+          <td>matemática</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>física</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>química</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>biologia</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
         </tr>
 
-        <tr><td>médias exatas</td> <td>0.0</td></tr>
-    
         <tr>
-            <th rowspan="2">humanas</th>
-            <td>história</td> <td>0.0</td> <td>0.0</td> <td>0.0</td> 
+          <th colspan="4">médias exatas</th>
+          <td class="r">0.0</td>
         </tr>
 
-            <tr>
-                <th>geografia </th> <td>0.0</td> <td>0.0</td> <td>0.0</td>
-            </tr>
-        <tr><td>médias humanas</td> <td>0.0</td></tr>
-        </tbody>
-        
-      </table>
+        <tr>
+          <th rowspan="2" scope="rowgroup">humanas</th>
+          <td>história</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+
+        <tr>
+          <td>geografia</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <th colspan="4">médias humanas</th>
+          <td class="r">0.0</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
