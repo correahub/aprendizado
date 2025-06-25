@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulário</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <form method="post" autocomplete="on">
+      <label>
+        usuário:
+        <input type="text" required placeholder="Seu Nome" name="usuário" minlength="8" size="10" autocomplete="username">
+      </label> <br>
+
+      <label>
+        senha
+        <input type="password" required placeholder="Sua senha" name="senha" minlength="5" size="10" autocomplete="current-password">
+      </label>
+      <br>
+      
+      <label>
+        Cor favorita
+      </label>
+      <label>
+        Preto
+        <input type="radio" name="cor" value="preto">
+      </label> <br>
+
+      <input type="submit"> <br>
+      <input type="reset">
+
+
+    </form>
+  </body>
+</html>
