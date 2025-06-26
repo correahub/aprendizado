@@ -6,51 +6,69 @@
     <title>form</title>
   </head>
   <body>
-    <form method="get" autocomplete="on">
+    <form method="post" autocomplete="on">
       <br />
       <label>
-        Nome:
-        <input
-          type="text"
-          required
-          placeholder="Seu Nome"
-          maxlength="10"
-          minlength="4"
-          name="Nome"
-          autocomplete="name"
-          pattern="^[A-Za-z]+$"
-        />
-      </label>
-      <br />
-      <label>
-        Senha:
-        <input
-          type="password"
-          placeholder="Sua Senha"
-          name="Senha"
-          min="8"
-          max="8"
-          minlength="8"
-          maxlength="8"
-          autocomplete="new-password"
-          required
-          pattern="^[A-Za-z0-9]+$"
-        />
-      </label>
-      <br />
-      <label>
-        Celular:
-        <input
-          type="tel"
-          required
-          placeholder="Seu Número"
-          name="Contato"
-          autocomplete="tel"
-          max="11"
-          min="11"
-          pattern="^\d{2}\d{5}\d{4}$"
-        />
-      </label>
+        <fieldset>
+          <legend>
+            Formulário
+          </legend>
+          Nome:
+          <input
+            type="text"
+            required
+            placeholder="Seu Nome"
+            maxlength="10"
+            minlength="4"
+            name="Nome"
+            autocomplete="name"
+            pattern="^[A-Za-z]+$"
+          />
+                </label>
+                <br />
+                <label>
+          Senha:
+          <input
+            type="password"
+            placeholder="Sua Senha"
+            name="Senha"
+            min="8"
+            max="8"
+            minlength="8"
+            maxlength="8"
+            autocomplete="new-password"
+            required
+            pattern="^[A-Za-z0-9]+$"
+          />
+                </label>
+                <br />
+                <label>
+          Celular:
+          <input
+            type="tel"
+            required
+            placeholder="Seu Número"
+            name="Contato"
+            autocomplete="tel"
+            max="11"
+            min="11"
+            pattern="^\d{2}\d{5}\d{4}$"
+          />
+                </label>
+                <br />
+                <label>
+          E-mail
+          <input
+            type="email"
+            required
+            name="Email"
+            placeholder="Seu E-mail"
+            autocomplete="email"
+            pattern="^[\w\.-]+@[A-Za-z]+\.[A-Za-z{3}]$"
+          />
+                </label>
+        </fieldset>
+
       <hr />
       <button type="submit">ENVIAR</button>
       <button type="reset">APAGAR</button>
