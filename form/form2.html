@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form03</title>
+  </head>
+  <body>
+    <form method="post">
+      <fieldset>
+        <legend>Caixas de Escolhas Multiplas</legend>
+        <h1>Quais são as cores que você mais gosta?</h1>
+        <label>
+          Azul
+          <input type="checkbox" name="cor-preferida" value="Azul" />
+        </label>
+
+        <label>
+          Vermelho
+          <input type="checkbox" name="cor-preferida" value="Vermelho" />
+        </label>
+
+        <label>
+            Verde
+            <input type="checkbox" name="cor-preferida" value="Verde">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Caixa de Unica escolha</legend>
+        <h2>
+            Qual é o seu Jogo Preferido?
+        </h2>
+        <label>
+            Minecraft
+            <input type="radio" name="game-preferido" value="Minecraft">
+        </label>
+        <label>
+            World of Warcraft
+            <input type="radio" name="game-preferido" value="World of Warcraft">
+        </label>
+      </fieldset>
+
+      <input type="submit">
+      <input type="reset" value="Apagar">
+    </form>
+  </body>
+</html>
