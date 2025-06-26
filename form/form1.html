@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form method="get" autocomplete="on">
+      <br />
+      <label>
+        Nome:
+        <input
+          type="text"
+          required
+          placeholder="Seu Nome"
+          maxlength="10"
+          minlength="4"
+          name="Nome"
+          autocomplete="name"
+          pattern="^[A-Za-z]+$"
+        />
+      </label>
+      <br />
+      <label>
+        Senha:
+        <input
+          type="password"
+          placeholder="Sua Senha"
+          name="Senha"
+          min="8"
+          maxlength="8"
+          autocomplete="new-password"
+          required
+          pattern="^[A-Za-z0-9]+$"
+        />
+      </label>
+      <br />
+      <label>
+        Celular:
+        <input
+          type="tel"
+          required
+          placeholder="Seu Número"
+          name="Contato"
+          autocomplete="tel"
+          pattern="^\d{2}\d{5}\d{4}$"
+        />
+      </label>
+      <hr />
+      <button type="submit">ENVIAR</button>
+    </form>
+  </body>
+</html>
