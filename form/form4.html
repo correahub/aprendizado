@@ -27,29 +27,35 @@
         <fieldset>
             <legend>Linguagens de Programação</legend>
             <select name="Linguagem de Programação">
-                <option value="Py">Python</option>
-                <option value="C">C</option>
-                <option value="C++">C++</option>
-                <option value="JS" selected>Javascript</option>
-                <option value="GO">Go</option>
-                <option value="RT">Rust</option>
-                <option value="Ry">Ruby</option>
-                <option value="Php">PHP</option>
+                <optgroup label="Front">
+                    <option value="Js">Javascript</option>
+                    <option value="JavaReact">JavascriptReact</option>
+                </optgroup>
+                <br>
+                <optgroup label="Backend">
+                    <option value="pythob">python</option>
+                    <option value="Php">PHP</option>
+                </optgroup>
             </select>
         </fieldset>
         <br>
         <fieldset>
             <legend>Poções Mágicas</legend>
             <select name="potion">
-                <option value="Fogo">
-                    Frasco com sangue de Salamndra
-                </option>
-                <option value="Cristal">
-                    Frasco com Sangue da princesa de Gelo
-                </option>
-                <option value="Sangue de trol" selected>
-                    Frasco com sangue de trol
-                </option>
+                <optgroup label="Itens Vips">
+                    <option value="Frasco Ss">
+                        Frasco com sangue de Salamndra
+                    </option>
+                    <option value="Frasco Cpg">
+                        Frasco com Sangue da princesa de Gelo
+                    </option>
+                </optgroup>
+
+                <optgroup label="Itens Free">
+                    <option value="frasco St" selected>
+                        Frasco com sangue de trol
+                    </option>
+                </optgroup>
             </select>
         </fieldset>
 
