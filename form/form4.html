@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Volume do Som</legend>
+            <label>
+                Som:
+                <input type="range" name="Som" required value="1" max="10" min="1" step="1">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Cidades Cadastradas</legend>
+            <select name="cidade">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="SF">São Fidélis</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Linguagens de Programação</legend>
+            <select name="Linguagem de Programação">
+                <option value="Py">Python</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="JS">Javascript</option>
+                <option value="GO">Go</option>
+                <option value="RT">Rust</option>
+                <option value="Ry">Ruby</option>
+                <option value="Php">PHP</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Botão de Enviar"> <br>
+        <input type="reset" value="Botão de Resetar">
+    </form>
+    
+</body>
+</html>
