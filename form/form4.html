@@ -1,68 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário</title>
-</head>
-<body>
+  </head>
+  <body>
     <form method="get">
-        <fieldset>
-            <legend>Volume do Som</legend>
-            <label>
-                Som:
-                <input type="range" name="Som" required value="5" max="10" min="1" step="1">
-            </label>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Cidades Cadastradas</legend>
-            <select name="cidade">
-                <option value="RJ" selected>Rio de Janeiro</option>
-                <option value="SP">São Paulo</option>
-                <option value="SF">São Fidélis</option>
-            </select>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Linguagens de Programação</legend>
-            <select name="Linguagem de Programação">
-                <optgroup label="Front">
-                    <option value="Js">Javascript</option>
-                    <option value="JavaReact">JavascriptReact</option>
-                </optgroup>
-                <br>
-                <optgroup label="Backend">
-                    <option value="pythob">python</option>
-                    <option value="Php">PHP</option>
-                </optgroup>
-            </select>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Poções Mágicas</legend>
-            <select name="potion">
-                <optgroup label="Itens Vips">
-                    <option value="Frasco Ss">
-                        Frasco com sangue de Salamndra
-                    </option>
-                    <option value="Frasco Cpg">
-                        Frasco com Sangue da princesa de Gelo
-                    </option>
-                </optgroup>
+      <fieldset>
+        <legend>Volume do Som</legend>
+        <label>
+          Som:
+          <input
+            type="range"
+            name="Som"
+            required
+            value="5"
+            max="10"
+            min="1"
+            step="1"
+          />
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Cidades Cadastradas</legend>
+        <select name="cidade">
+          <option value="RJ" selected>Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+          <option value="SF">São Fidélis</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Linguagens de Programação</legend>
+        <select name="Linguagem de Programação">
+          <optgroup label="Front">
+            <option value="Js">Javascript</option>
+            <option value="JavaReact">JavascriptReact</option>
+          </optgroup>
+          <br />
+          <optgroup label="Backend">
+            <option value="pythob">python</option>
+            <option value="Php">PHP</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Poções Mágicas</legend>
+        <select name="potion">
+          <optgroup label="Itens Vips">
+            <option value="Frasco Ss">Frasco com sangue de Salamndra</option>
+            <option value="Frasco Cpg">
+              Frasco com Sangue da princesa de Gelo
+            </option>
+          </optgroup>
 
-                <optgroup label="Itens Free">
-                    <option value="frasco St" selected>
-                        Frasco com sangue de trol
-                    </option>
-                </optgroup>
-            </select>
-        </fieldset>
-
-        
-        <input type="submit" value="Botão de Enviar">
-        <input type="reset" value="Botão de Resetar">
+          <optgroup label="Itens Free">
+            <option value="frasco St" selected>
+              Frasco com sangue de trol
+            </option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Jogos Online</legend>
+        <label for="Game">Melhor jogo:</label>
+        <input required list="jogos" id="Game" name="Game">
+        <datalist id="jogos">
+            <option value="Wow">World Of Warcraft</option>
+            <option value="AQW">Adventure Quest World</option>
+        </datalist>
+      </fieldset>
+      <input type="submit" value="Botão de Enviar" />
+      <input type="reset" value="Botão de Resetar" />
     </form>
-    
-</body>
+  </body>
 </html>
