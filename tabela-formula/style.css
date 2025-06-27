@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+:root{
+    --fundo: #2C3E50;
+    --botao-links1: #F5A623;
+    --botao-links2:#D35400;
+    --texto:#ECF0F1;
+    --hover1: #357ABD;
+    --hover2: #2C6CA6;
+}
