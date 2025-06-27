@@ -1,10 +1,51 @@
 @charset "UTF-8";
 
-:root{
-    --fundo: #2C3E50;
-    --botao-links1: #F5A623;
-    --botao-links2:#D35400;
-    --texto:#ECF0F1;
-    --hover1: #357ABD;
-    --hover2: #2C6CA6;
+:root {
+  --fundo: #2c3e50;
+  --botao-links1: #f5a623;
+  --botao-links2: #d35400;
+  --texto: #ecf0f1;
+  --hover1: #357abd;
+  --hover2: #2c6ca6;
+}
+/*Sem margin e paddin*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*fundo*/
+html,
+body {
+  background-color: var(--fundo);
+  height: 98vh;
+  width: 98vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Menu*/
+nav {
+  text-align: right;
+  
+}
+nav > a {
+  text-decoration: none;
+  color: var(--botao-links1);
+  font-size: 3vh;
+  
+}
+
+nav > a:hover {
+  color: var(--fundo);
+  background-color: var(--botao-links1);
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  font-weight: bolder;
+  padding: 2px;
+  border: 2px solid var(--hover1);
+}
+/*header*/
+header{
+    text-align: center;
+    background-color: var(--texto);
+    width: 100vw;
 }
