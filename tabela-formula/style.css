@@ -24,6 +24,7 @@ body {
 /*Menu*/
 nav {
   text-align: right;
+  position: fixed, top;
   
 }
 nav > a {
