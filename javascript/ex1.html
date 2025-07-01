@@ -7,15 +7,18 @@
   </head>
   <body>
     <script>
-      let nome = prompt("Primeiro Nome: ");
-      let sobrenome = prompt("Segundo Nome: ");
-      alert(`O seu nome é ${nome} ${sobrenome}`);
-      alert(`NOME MAIUSCULO: ${nome.toUpperCase()} ${sobrenome.toUpperCase()}`);
-      alert(`nome minusculo: ${nome.toLowerCase()} ${sobrenome.toLowerCase()}`);
-      nomer = nome.replace("emanuel", "soares")
-      sobrer = sobrenome.replace("soares", "emanuel")
-      alert(nomer)
-      alert(sobrer)
+        alert("DIA DE AUMENTO DE SALÁRIO!!")
+        let nome_completo = prompt("Nome: ")
+        let idade = parseInt(prompt("Idade: "))
+        let salario = Number(prompt("Salário Atual: "))
+        let aumento = Number(prompt("Aumento Desejado em porcentagem: "))
+        alert("Analisando...") 
+        alert("Analisando...") 
+        alert("Analisando...") 
+        alert("Analisando...") 
+        alert("Concluido!")
+        novosal = (aumento / 100) * salario + salario
+        alert(`Nome: ${nome_completo.toUpperCase()}\nIdade:${idade}\nSalário anterior: ${salario.toFixed(2)}\nNovo salário: ${novosal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`)
     </script>
   </body>
 </html>
