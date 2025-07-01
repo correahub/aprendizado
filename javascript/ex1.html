@@ -7,22 +7,12 @@
   </head>
   <body>
     <script>
-        alert("Vamos encontrar a média do aluno!")
-        let nome = prompt("Nome: ")
-        let numero1 = Number(prompt("Número1: "))
-        let numero2 = Number(prompt("Número2: "))
-        let numero3 = Number(prompt("Número3: "))
-        let numero4 = Number(prompt("Número4: "))
-        let quantidade = prompt("Quantas notas foram inseridas?: ")
-        let media = (numero1 + numero2 + numero3 + numero4) / quantidade
-        alert(`Aluno:${nome}\n
-        Primeira nota:${numero1}\n
-        Segunda nota:${numero2}\n
-        Terceira nota: ${numero3}\n
-        Quarta nota: ${numero4}\n
-        Média:${media}`)
+      alert("Aumento de salário!");
+      let salario = Number(prompt("Salário Atual: "));
+      let porcentagem = Number(prompt("Porcentagem do aumento: "));
+      let aumento = (porcentagem / 100) * salario + salario;
 
-
+      alert(`Salário anterior: ${sal}\nNovo salário: ${aumento}\nAumento de ${porcentagem}%`)
     </script>
   </body>
 </html>
