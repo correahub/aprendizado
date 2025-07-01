@@ -7,10 +7,11 @@
   </head>
   <body>
     <script>
-        let fator1 = Number(prompt("Fator1: "))
-        let fator2 = Number(prompt("fator2: "))
-        let produto = fator1 * fator2
-        alert(`${fator1} x ${fator2} = ${produto}`)
+        let dividendo = Number(prompt("dividendo: "))
+        let divisor = Number(prompt("Divisor: "))
+        let quociente = dividendo / divisor
+        let resto = dividendo%divisor
+        alert(`${dividendo} / ${divisor} = ${quociente.toFixed(2)}\n Resto=${resto}`)
     </script>
   </body>
 </html>
