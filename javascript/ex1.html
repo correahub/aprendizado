@@ -7,12 +7,15 @@
   </head>
   <body>
     <script>
-      alert("Aumento de salário!");
-      let salario = Number(prompt("Salário Atual: "));
-      let porcentagem = Number(prompt("Porcentagem do aumento: "));
-      let aumento = (porcentagem / 100) * salario + salario;
-
-      alert(`Salário anterior: ${salario.toFixed(2)}\nNovo salário: ${aumento.toFixed(2)}\nAumento de ${porcentagem}%`)
+      let nome = prompt("Primeiro Nome: ");
+      let sobrenome = prompt("Segundo Nome: ");
+      alert(`O seu nome é ${nome} ${sobrenome}`);
+      alert(`NOME MAIUSCULO: ${nome.toUpperCase()} ${sobrenome.toUpperCase()}`);
+      alert(`nome minusculo: ${nome.toLowerCase()} ${sobrenome.toLowerCase()}`);
+      nomer = nome.replace("emanuel", "soares")
+      sobrer = sobrenome.replace("soares", "emanuel")
+      alert(nomer)
+      alert(sobrer)
     </script>
   </body>
 </html>
