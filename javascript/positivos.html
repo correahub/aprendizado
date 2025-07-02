@@ -7,9 +7,10 @@
   </head>
   <body>
     <script>
-      alert("Digite um valor para ver o antes e o Depois!!!");
-      let numero = Number(prompt("Digite um valor: "));
-      alert(`ANTES > -[${--numero}] -[${++numero}]- [${++numero}]- < DEPOIS`)
+      let valor1 = Number(prompt("Digite um valor: "))
+      let valor2 = Number(prompt("Digite um outro valor: "))
+      let resposta = valor1 > valor2
+      alert(`Valor1:${valor1}\nValor2:${valor2}\nO primeiro valor é maior que o segundo valor?: ${resposta}`)
     </script>
   </body>
 </html>
