@@ -7,12 +7,13 @@
   </head>
   <body>
     <script>
-
-      let primeiro = false
-      let segundo = false
-      let igual = primeiro && segundo
-      alert(`Ambos são verdadeiros: ${!igual}`)
-      
+      let primeiro = 5;
+      let segundo = 5;
+      let igual =
+        primeiro === 5
+          ? "Obrigado Você é igual a 5"
+          : "Não você não é igual a 5";
+      alert(`${igual}`);
 
       /** let primeiro_valor = Number(prompt("Primeiro Valor: "));
       let segundo_valor = Number(prompt("Segundo Valor: "));
