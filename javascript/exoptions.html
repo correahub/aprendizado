@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      alert("Descobrindo se um Número é ou não divisivel");
+      let dividendo = Number(prompt("Digite um dividendo:  "));
+      let divisor = Number(prompt("Digite um Divisor: "));
+      let quociente = dividendo / divisor
+      let resto = dividendo % divisor;
+      let resposta = resto == 0 ? "Sim, é Divisivel" : "Não é divisivel";
+      alert(`[${dividendo}]/[${divisor}]=[${quociente.toFixed(2)}]\nEssa Divisão é divisivel?: ${resposta}`)
+    </script>
+  </body>
+</html>
