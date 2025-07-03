@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testando Get do document do window</title>
+  </head>
+  <body>
+    <!--titulo identificado por meuh1-->
+    <h1 id="meuh1">Um mundo Azul em um sistema solar escuro.</h1>
+    <!--paragrafo identificado por meup-->
+    <p id="meup">Planetas que estão orbitando uma estrela branca</p>
+    <!--Botão interativo, cria o nome da função.-->
+    <button onclick="Mudar()">REVELAR</button>
+    <script>
+        //Criando a função com o nome mudar, e tudo oque for escrito em seu interior será executado quando a função for ativada.
+        function Mudar() {
+            let novoh1 = document.getElementById("meuh1");
+            novoh1.innerText =
+            "Um planeta bonito e cheio de vida em um sistema solar iluminado";
+            let meup = document.getElementById("meup");
+        meup.innerHTML =
+          "Planetas, estrelas, tudo nesse sistema solar está orbitando o lindo sol";
+      }
+    </script>
+  </body>
+</html>

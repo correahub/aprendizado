@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
     <style>
-      div{
+      div {
         width: 200px;
         height: 100px;
         background-color: red;
         text-align: center;
         color: white;
         font-weight: 900;
+        font-size: larger;
+        line-height: 200px;
       }
     </style>
   </head>
   <body>
     <h1>Trabalhando com DOOM</h1>
-    <p>Olá, amigo!</p>
-    <div>
-      Clique em mim
-    </div>
+    <div onclick="clicado()">INTERAJA...</div>
     <script>
-      let paragrafo = document.getElementsByTagName("h1")[0]
-      document.query
+      function clicado() {
+        document.getElementsByTagName("div");
+        document.write("Tranquilo? MESMO?? EHSUEHUSEUHSHUESHU");
+      }
     </script>
   </body>
 </html>
