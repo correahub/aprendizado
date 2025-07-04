@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
-      body {
+      *{
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+      }
+      div {
+        width: 300px;
+        height: 100px;
         background-color: black;
-        font: small-caps 900 50px arial;
         text-align: center;
       }
-      p {
-        color: white;
-      }
-      h1 {
-        color: white;
+      div > p {
+        color: rgb(255, 255, 255);
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
       }
     </style>
-    <title>Balinhas gostosas</title>
   </head>
   <body>
-    <h1 id="Nome">Emanuel</h1>
-    <button id="meuBotao">Clique aqui!</button>
+    <div id="corzin">
+      <p id="conten">Quadrado</p>
 
-    <script>
-      // Pega o botão lá do HTML
-      let botao = document.querySelector("#meuBotao");
-      let nome = document.querySelector("#Nome");
+      <script>
+        let conteudo = document.querySelector("#conten");
+        let cor = document.querySelector("#corzin");
 
-      // Coloca o ouvidinho no botão
-      botao.addEventListener("Click", function (){
-        nome.innerText = 
-      })
-    </script>
+        conteudo.addEventListener("click", function letra() {
+          conteudo.style.color = "red";
+        });
+
+        cor.addEventListener("mouseenter", function fundo() {
+          cor.style.backgroundColor = "blue";
+          conteudo.style.color = "white";
+        });
+
+        conteudo.addEventListener("mouseleave", function sair() {
+          conteudo.style.color = "white";
+          cor.style.backgroundColor = "yellow";
+        });
+      </script>
+    </div>
   </body>
 </html>
