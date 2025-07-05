@@ -2,12 +2,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(204, 204, 204);
 }
 main {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
 }
 /*Unico h1*/
 h1 {
@@ -15,11 +15,33 @@ h1 {
   background-color: rgb(172, 175, 213);
   text-align: center;
   font-weight: 900;
+  margin-bottom: 0px;
 }
 /*Em baixo do h1, unico p*/
 .p1 {
   text-align: center;
+  background-color: rgb(187, 191, 222);
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Menuzinho*/
+#caixa {
+  text-align: right;
+}
+.menu:hover{
+  background-color: rgb(104, 104, 104);
+  color: white;
+  border-radius: 10px;
+}
+
+.menu {
+  background-color: white;
+  width: 60px;
+  text-align: center;
   padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
 }
 /*Padrão para todos os subtitulos*/
 h2 {
@@ -32,6 +54,7 @@ h2 {
 /*links e explicações um pouco menos negrito*/
 a {
   font-weight: bolder;
+  text-decoration: none;
 }
 strong {
   color: rgb(71, 68, 69);
