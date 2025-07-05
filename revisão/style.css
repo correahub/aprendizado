@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+/*Unico h1*/
+h1 {
+  color: rgb(7, 21, 91);
+  background-color: rgb(172, 175, 213);
+  text-align: center;
+  font-weight: 900;
+}
+/*Em baixo do h1, unico p*/
+.p1 {
+  text-align: center;
+  padding: 10px;
+}
+/*Padrão para todos os subtitulos*/
+h2 {
+  color: rgb(0, 15, 120);
+  background-color: rgb(182, 182, 182);
+  padding: 10px;
+  font-weight: 750;
+  border-bottom: 2px solid rgb(0, 15, 120);
+}
+/*links e explicações um pouco menos negrito*/
+a {
+  font-weight: bolder;
+}
+strong {
+  color: rgb(71, 68, 69);
+  font-size: larger;
+}
+/*Lista*/
+ul {
+  list-style-type: disc;
+}

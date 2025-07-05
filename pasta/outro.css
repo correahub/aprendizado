@@ -1,16 +1,40 @@
-body{
-    height: 100vh;
-    border: 1px dashed black;
-    /*imagem de fundo*/
-    background-image: url(arquivos/images/wallpaper003.jpg);
-    /*Ela n ira se repetir*/
-    background-repeat:no-repeat;
-    /*tamanho*/
-    background-size: cover;
-    /*centralizada*/
-    background-position: center center;
-    /*cor letras*/
-    color: white;
-    /*posição do fundo ao todo ou rolado*/
-    background-attachment: fixed;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+body{
+    background-color: red;
+    min-width: 320px;
+}
+
+main{
+    background-color: aqua;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main>h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section{
+    background-color: yellow;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
