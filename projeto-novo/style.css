@@ -1,70 +1,88 @@
 @charset "UTF-8";
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/*BODY*/
 body{
-    background-color: rgb(204, 204, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-/*HEADER*/
-header{
-    /*ALTURA EM 30% DA VIWE PORT*/
-    height: 20vw;
-    background-image: url(imagens/bg-3.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: scroll;
-    background-size: cover;
-    color: white;
-}
-header > h1 {
-    width: 600px;
-    font-size: 3em;
-    text-align: center;
-    margin: auto;
-    padding-top: 8vw;
-    
-}
-/*MAIN*/
-main{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-/*ARTICLE*/
-section{
-    background-color: white;
-    padding: 10px;
-    margin: 20px 10px 20px 10px;
+  background-color: rgb(147, 156, 165);
 }
 
-section>h2{
-    background-color: rgb(214, 212, 212);
-    padding: 5px;
-}
-section>p{
-    padding: 10px;
-    line-height: 1.3em;
+header {
+  background-image: url(imagens/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  padding-top: 20px;
+  padding-right: 20px;
+  height: 500px;
 }
 
-section>a{
-    padding: 5px;
-    background-color: rgb(207, 200, 209);
-    color: rgb(29, 22, 111);
-    font-weight: 700;
+header>nav>ul>li>a{
+  background-color: red;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.281);
+  padding: 10px;
 }
-/*FOOTER*/
+header>nav>ul>li{
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10px;
+}
+header>nav>ul{
+  list-style: none;
+  text-align: right;
+}
+
+
+#divzinha {
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+div>h1{
+  font-size: 56px;
+  text-shadow: 0px 3px 0px black;
+}
+
+div>p{
+  background-color: rgba(0, 0, 0, 0.466);
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  margin: 50px auto;
+  padding: 10px;
+  width: 50%;
+}
+
+article>section{
+  margin: 50px auto;
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+}
+
+article>section>h2{
+  background-color: gray;
+  padding: 5px;
+}
+
+article>section>p{
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+article>section>a{
+  background-color:rgb(180, 180, 180);
+  padding: 5px;
+}
+
 footer{
-    padding: 10px;
-    color: white;
-    background-color: rgb(172, 172, 172);
-    text-align: center;
-    font-weight: 900;
+  text-align: center;
+  margin-top: 10px auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
 }
-
