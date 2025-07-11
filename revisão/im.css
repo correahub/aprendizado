@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+  background-color: lightblue;
+}
+
+main {
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  text-align: justify;
+  padding: 10px;
+}
+
+.ht1{
+    float: right;
+}
+.ht2{
+    float: left;
+}
