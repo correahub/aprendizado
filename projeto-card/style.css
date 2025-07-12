@@ -1,9 +1,56 @@
 @charset "UTF-8";
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(12, 16, 19, 0.582);
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.myserver {
+  text-transform: uppercase;
+  font: 500 30px arial;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.cnav {
+  padding: 10px;
+  font-weight: 600;
+}
+.top {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.top:hover {
+  background-color: yellow;
+  color: black;
+  text-decoration: underline;
+  padding: 10px;
+  border-radius: 5px;
+}
+/*Nav configurado*/
