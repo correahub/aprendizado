@@ -73,6 +73,7 @@ main{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    gap: 15px;
 }
 
 .li-card{
@@ -80,6 +81,7 @@ main{
     color: white;
     padding: 10px;
     border-radius: 10px;
+    
 }
 
 .tv{
@@ -93,6 +95,27 @@ h2{
 
 .ul-vantagens{
     list-style-position: inside;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
+.ul-vantagens>li{
+    padding-bottom: 5px;
+
+}
+
+.ul-vantagens > li::marker{
+    color: yellow;
+}
+.botao{
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.botao>a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+}
