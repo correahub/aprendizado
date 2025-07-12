@@ -56,74 +56,78 @@ header {
   border-radius: 8px;
 }
 /*Nav configurado*/
-h1{
-    color: white;
-    padding: 16px;
-    margin: 16px;
-    width: 50%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 64px;
+h1 {
+  color: white;
+  padding: 16px;
+  margin: 16px;
+  width: 50%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 64px;
 }
 
-main{
-    width: 80%;
-    max-width: 960px;
+main {
+  width: 80%;
+  max-width: 960px;
+  margin-bottom: 50px;
 }
 
-.ul-master{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    gap: 16px;
+.ul-master {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 16px;
 }
 
-.li-card{
-    background-color: rgb(32, 38, 44);
-    color: white;
-    padding: 16px;
-    border-radius: 16px;
-    flex: 1;
-    box-shadow: 3px 3px 8px 2px #caf9047d;
-    
+.li-card {
+  background-color: rgb(32, 38, 44);
+  color: white;
+  padding: 16px;
+  border-radius: 16px;
+  flex: 1;
+  box-shadow: 3px 3px 8px 2px #caf9047d;
+  display: flex;
+  flex-direction: column;
 }
 
-.tv{
-    padding: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+.tv {
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
 }
-span{
-    font-size: 16px;
+span {
+  font-size: 16px;
 }
-h2{
-    border-bottom: 1px solid yellow;
-}
-
-.ul-vantagens{
-    list-style-position: inside;
-    margin-bottom: 16px;
-
+h2 {
+  border-bottom: 1px solid yellow;
 }
 
-.ul-vantagens>li{
-    padding-bottom: 8px;
+.ul-vantagens {
+  list-style-position: inside;
+  margin-bottom: 16px;
+  flex-grow: 1;
 
 }
 
-.ul-vantagens > li::marker{
-    color: yellow;
-}
-.botao{
-    background-color: yellow;
-    text-align: center;
-    padding: 16px;
-    border-radius: 8px;
+.ul-vantagens > li {
+  padding-bottom: 8px;
+  text-transform: capitalize;
+  line-height: 1.5;
 }
 
-.botao>a{
-    color: black;
-    text-transform: uppercase;
-    font-weight: 800;
-    text-decoration: none;
+.ul-vantagens > li::marker {
+  color: yellow;
+}
+.botao {
+  background-color: yellow;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.botao > a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
 }
