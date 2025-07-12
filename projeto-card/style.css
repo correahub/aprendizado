@@ -90,3 +90,9 @@ main{
 h2{
     border-bottom: 1px solid yellow;
 }
+
+.ul-vantagens{
+    list-style-position: inside;
+    margin: 10px;
+}
+
