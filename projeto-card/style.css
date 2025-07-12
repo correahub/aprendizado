@@ -54,3 +54,12 @@ header {
   border-radius: 5px;
 }
 /*Nav configurado*/
+h1{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
