@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(12, 16, 19, 0.582);
+  background-color: rgb(12, 16, 19);
 }
 
 header {
@@ -62,4 +62,31 @@ h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+}
+
+main{
+    width: 80%;
+    max-width: 800px;
+}
+
+.ul-master{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.li-card{
+    background-color: rgb(32, 38, 44);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tv{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h2{
+    border-bottom: 1px solid yellow;
 }
