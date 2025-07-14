@@ -1,0 +1,47 @@
+@charset "UTF-8";
+html{
+    min-height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background: url(imagens/bg-2.jpg) no-repeat bottom / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    color: white;
+
+}
+
+.hdzin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    text-shadow: 2px 3px 0px black;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.ph{
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-bottom: 2px solid white;
+    width: fit-content;
+    padding: 10px;
+}
+
