@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body {
+  min-height: 100%;
+}
+
+* {
+  font-family: "Roboto";
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --BackgroundTopHeader: #162028;
+  --Cordotextonomenu: #425564;
+  --Cordostextos: #555;
+  --Cordefundodoboxcomimagemdedetalhe: #003d52;
+  --Cordefundodofooter: #0b171f;
+  --Cordetextodofooter: #6f8597;
+}
+
+/*************************************************/
+/*HEADER*/
+header {
+  background-color: var(--BackgroundTopHeader);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 5vw;
+}
+
+.sec-header {
+  display: flex;
+  width: 80%;
+}
+
+.sec-header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-do-link {
+  color: var(--Cordotextonomenu);
+}
+
+.ul-header {
+  display: flex;
+  gap: calc(1rem);
+  list-style-type: none;
+}
+
+.texto-do-link{
+    text-decoration: none;
+}
