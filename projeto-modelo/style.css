@@ -90,6 +90,7 @@ main {
   align-items: center;
   margin-bottom: 10vw;
   gap: 2vw;
+  color: var(--Cordostextos);
 }
 
 .primeiro-h1 {
@@ -102,4 +103,27 @@ main {
   text-align: center;
   line-height: 1.5em;
   font-size: 3vh;
+}
+
+/*article*/
+.ul-master{
+  display: flex;
+  gap: 2em;
+  list-style-type: none;
+  margin-bottom: 10vw;
+
+}
+
+.tex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: var(--Cordostextos);
+  font-size: 2vh;
+}
+
+.img{
+  width: 100%;
 }
