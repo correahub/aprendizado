@@ -25,9 +25,6 @@ body {
 
 /*************************************************/
 /*BODy*/
-body {
-  margin: 2%;
-}
 
 /*HEADER*/
 header {
@@ -106,15 +103,14 @@ main {
 }
 
 /*article*/
-.ul-master{
+.ul-master {
   display: flex;
   gap: 2em;
   list-style-type: none;
   margin-bottom: 10vw;
-
 }
 
-.tex{
+.tex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,6 +120,35 @@ main {
   font-size: 2vh;
 }
 
-.img{
+.img {
   width: 100%;
+}
+
+aside {
+  background-image: url(imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  justify-content: space-between;
+}
+.moldura1 {
+  width: 80%;
+  margin-top: 4vw;
+  margin-left: 4vw;
+}
+.zon {
+  width: 50%;
+  margin-top: 2vw;
+}
+
+footer {
+  background-color: var(--Cordefundodofooter);
+  width: 100%;
+  text-align: center;
+  color: var(--Cordetextodofooter);
+  padding: 1vw;
 }
