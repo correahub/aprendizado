@@ -11,6 +11,7 @@ body {
   font-family: "Roboto";
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 :root {
@@ -23,25 +24,34 @@ body {
 }
 
 /*************************************************/
+/*BODy*/
+body {
+  margin: 2%;
+}
+
 /*HEADER*/
 header {
   background-color: var(--BackgroundTopHeader);
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 5vw;
+  height: 10vh;
+}
+
+.p-header {
+  font-size: 2.6vh;
 }
 
 .sec-header {
   display: flex;
-  width: 80%;
+  width: 90%;
 }
 
-.sec-header{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.sec-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .texto-do-link {
@@ -50,10 +60,46 @@ header {
 
 .ul-header {
   display: flex;
-  gap: calc(1rem);
+  gap: 10px;
   list-style-type: none;
 }
 
-.texto-do-link{
-    text-decoration: none;
+.texto-do-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2vh;
+}
+
+.moça {
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
+/*MAIN*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meio {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vw;
+  gap: 2vw;
+}
+
+.primeiro-h1 {
+  font-family: serif;
+  color: var(--Cordotextonomenu);
+  font-size: 5vh;
+  text-align: center;
+}
+.primeiro-p {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 3vh;
 }
