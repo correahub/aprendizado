@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(42, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.section-header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header{
+    height: 50px;
+}
+
+.ul-header {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+.texto-link-header {
+  color: rgb(254, 208, 1);
+  padding: 8px;
+  outline: 1px solid rgb(254, 208, 1);
+  text-decoration: none;
+}
