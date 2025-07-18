@@ -162,3 +162,20 @@ h3 > p {
   margin-bottom: 50px;
   font-size: calc(1rem + 1vw);
 }
+
+.h2-contatos{
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+address{
+  text-align: right;
+  padding: 10px;
+}
+footer{
+  background-color: rgb(31, 33, 35);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
