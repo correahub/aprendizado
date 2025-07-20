@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando popovers</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="dv1">
+        <div class="separando">
+          <h1>Perfil de Cauã Victor</h1>
+          <button class="bt1" popovertarget="caixa-ajuda">Ajuda</button>
+          <p popover="auto" id="caixa-ajuda">
+            O nome completo do usuário. Ele pode ser alterado nas configurações
+            de perfil.
+          </p>
+        </div>
+        <p><strong>Nome:</strong> Cauâ Victor</p>
+      </div>
+
+      <div>
+        <h1>Informações de Contato</h1>
+        <p><strong>Email:</strong> cauanvictor@emxemplo.com</p>
+      </div>
+    </main>
+  </body>
 </html>
