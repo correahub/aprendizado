@@ -36,21 +36,18 @@
         <div>
           <!--Assunto-->
           <label for="assunto"> Assunto </label>
-          <input
-            type="text"
-            required
-            minlength="20"
-            name="assunto"
-            id="assunto"
-          />
+          <input type="text" required name="assunto" id="assunto" />
         </div>
-        <div>
+        <div class="text-div">
           <!--Assunto-->
           <label for="menssagem"> Menssagem </label>
-          <textarea name="menssagem" id="menssagem"> </textarea>
+          <textarea name="menssagem" id="menssagem" rows="10" minlength="30">
+          </textarea>
         </div>
       </fieldset>
-      <button type="submit">Enviar</button>
+      <div class="bt">
+        <button type="submit">Enviar</button>
+    </div>
     </form>
   </body>
 </html>
