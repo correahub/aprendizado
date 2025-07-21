@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="login.php">
+    <fieldset>
+        <legend>
+            Informações Pessoais
+        </legend>
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Seu nome" id="nome" name="nome"><br>
+        <label for="idade">Idade:</label>
+        <input type="date" id="idade" name="idade" required> <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="sexo" name="sexo" value="M" required> Masculino
+        <input type="radio" id="sexo" name="sexo" value="F" required> Feminino
+
+    </fieldset>
+    <input type="submit">
+</form>
+</body>
+</html>
