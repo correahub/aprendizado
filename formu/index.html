@@ -1,26 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<form action="login.php">
-    <fieldset>
-        <legend>
-            Informações Pessoais
-        </legend>
-        <label for="nome">Nome:</label>
-        <input type="text" placeholder="Seu nome" id="nome" name="nome"><br>
-        <label for="idade">Idade:</label>
-        <input type="date" id="idade" name="idade" required> <br>
-        <label for="sexo">Sexo:</label>
-        <input type="radio" id="sexo" name="sexo" value="M" required> Masculino
-        <input type="radio" id="sexo" name="sexo" value="F" required> Feminino
-
-    </fieldset>
-    <input type="submit">
-</form>
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>formulario</title>
+  </head>
+  <body>
+    <form method="get" enctype="application/x-www-form-urlencoded">
+      <fieldset>
+        <legend>Formulário de Contato</legend>
+        <div>
+          <!--Nome-->
+          <label for="nome"> Seu Nome </label>
+          <input
+            type="text"
+            required
+            placeholder="Digite Seu Nome Completo"
+            id="nome"
+            name="nome"
+          />
+        </div>
+        <div>
+          <!--Email-->
+          <label for="email"> Seu Email </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite um Email Válido"
+            required
+          />
+        </div>
+        <div>
+          <!--Assunto-->
+          <label for="assunto"> Assunto </label>
+          <input
+            type="text"
+            required
+            minlength="20"
+            name="assunto"
+            id="assunto"
+          />
+        </div>
+        <div>
+          <!--Assunto-->
+          <label for="menssagem"> Menssagem </label>
+          <textarea name="menssagem" id="menssagem"> </textarea>
+        </div>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
 </html>
