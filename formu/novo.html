@@ -1,0 +1,65 @@
+<!-- Define o tipo de documento como HTML5 -->
+<!DOCTYPE html>
+
+<!-- Início do documento HTML e define o idioma como português do Brasil -->
+<html lang="pt-br">
+  <head>
+    <!-- Define o conjunto de caracteres como UTF-8 (suporta acentos e símbolos especiais) -->
+    <meta charset="UTF-8" />
+
+    <!-- Configura o site para se adaptar à largura da tela do dispositivo (responsivo) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importa um arquivo CSS chamado 'formalize.css' (possivelmente um reset ou estilização padrão) -->
+    <link rel="stylesheet" href="formalize.css" />
+
+    <!-- Importa o arquivo CSS personalizado do projeto chamado 'my.css' -->
+    <link rel="stylesheet" href="my.css" />
+
+    <!-- Define o título da aba do navegador -->
+    <title>Cadastre-se</title>
+  </head>
+
+  <body>
+    <!-- Início do formulário -->
+    <!--O formulário será enviado para o script login.py-->
+    <!-- Envia os dados via método POST (mais seguro que GET) -->
+    <!-- Tipo de codificação dos dados (padrão para formulários) -->
+    <form
+      method="post"
+      action="login.py"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <!-- Agrupa os campos relacionados ao cadastro -->
+      <fieldset>
+        <!-- Título do grupo de campos -->
+        <legend>Cadastre-se</legend>
+
+        <div class="div-central">
+          <!-- Campo de entrada para o nome de usuário -->
+          <label for="usuário"> USUÁRIO </label>
+          <input type="text" id="usuário" name="usuário" required />
+          <!-- Campo de entrada para o e-mail -->
+          <label for="email"> EMAIL </label>
+          <input type="email" required name="email" id="email" />
+          <!-- Campo de entrada para a senha -->
+          <label for="senha"> SENHA </label>
+          <input type="password" required name="senha" id="senha" />
+        </div>
+
+        <!-- Container para botões e links -->
+        <div class="div-botoes">
+          <!-- Botão para enviar o formulário -->
+          <div>
+            <button type="submit">CADASTRE-SE</button>
+          </div>
+
+          <!-- Link para redirecionar o usuário caso ele já tenha uma conta -->
+          <div>
+            <p>Já possui Cadastro? <a href="index.html"><span>Faça Login</span></a></p>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
