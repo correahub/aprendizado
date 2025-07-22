@@ -8,7 +8,7 @@
     <title>formulario</title>
   </head>
   <body>
-    <form method="get" enctype="application/x-www-form-urlencoded">
+    <form method="get" enctype="application/x-www-form-urlencoded" autocomplete="off">
       <fieldset>
         <legend>Formulário de Contato</legend>
         <div>
@@ -36,18 +36,32 @@
         <div>
           <!--Assunto-->
           <label for="assunto"> Assunto </label>
-          <input type="text" required name="assunto" id="assunto" />
+          <input
+            type="text"
+            required
+            name="assunto"
+            id="assunto"
+            placeholder="Digite o Titulo da Menssagem"
+          />
         </div>
         <div class="text-div">
           <!--Assunto-->
           <label for="menssagem"> Menssagem </label>
-          <textarea name="menssagem" id="menssagem" rows="10" minlength="30">
+          <textarea
+            name="menssagem"
+            id="menssagem"
+            rows="10"
+            minlength="30"
+            maxlength="1000"
+            placeholder="Escreva sua Menssagem aqui"
+            required
+          >
           </textarea>
         </div>
       </fieldset>
       <div class="bt">
         <button type="submit">Enviar</button>
-    </div>
+      </div>
     </form>
   </body>
 </html>

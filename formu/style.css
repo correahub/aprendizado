@@ -17,12 +17,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 form {
   background-color: rgb(13, 16, 15);
   color: white;
   width: 80%;
+  max-width: 60.125em;
+  min-width: 20.3125em;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -54,10 +58,19 @@ input {
   color: white;
 }
 
-input:focus {
+input:focus, textarea:focus {
   background-color: rgb(41, 39, 40);
   outline: none;
-  border-bottom: 2px solid rgba(255, 0, 0, 0.37);
+}
+
+input:focus:invalid,
+textarea:focus:invalid {
+  border-bottom: 2px solid red;
+}
+
+input:focus:valid,
+textarea:focus:valid {
+  border-bottom: 2px solid lime;
 }
 
 .text-div {
@@ -72,11 +85,7 @@ textarea {
   background-color: black;
   color: white;
   outline: none;
-}
-
-textarea:focus {
-  background-color: rgb(41, 39, 40);
-  border-bottom: 2px solid rgba(255, 0, 0, 0.37);
+  padding: 10px;
 }
 
 .bt {
@@ -84,7 +93,6 @@ textarea:focus {
   justify-content: flex-end;
   padding: 10px;
 }
-
 
 button {
   padding: 10px;
