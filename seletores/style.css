@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+article > section > ul > li > a {
+  background-color: red;
+  padding: 10px;
+}
+
+article > section > ul > li > a + h1 {
+  background-color: red;
+  padding: 10px;
+  width: fit-content;
+}
+
+article > section > ul > li > h1 ~ p {
+  background-color: aqua;
+  width: fit-content;
+}
