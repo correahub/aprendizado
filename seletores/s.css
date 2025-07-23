@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+[popover] {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+[popovertarget] {
+  background-color: red;
+  color: white;
+}
+
+[for] {
+  background-color: black;
+  color: red;
+}
+
+[action] {
+  background-color: rgb(129, 6, 6);
+  color: yellow;
+  height: 100px;
+}
+
+nav [href="www.lucas.com"] {
+  text-decoration: none;
+  background-color: red;
+  color: black;
+}
+
+header [type="submit"] {
+  color: black;
+  background-color: yellow;
+}
+
+button [href]{
+    background-color: pink;
+    font-weight: 900;
+}
