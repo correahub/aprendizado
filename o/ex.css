@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body [href]::after {
+  content: url("imagens/newWindow-icon.png");
+  margin-left: 5px;
+}
+
+body [href]::before {
+  content: url("imagens/pdf-icon.gif");
+  margin-right: 5px;
+}
+
+#chk1:checked + label {
+  color: lime;
+}
+
+#chk1:not(:checked) + label {
+  color: red;
+}
+
+#chk2:disabled + label {
+  color: aqua;
+}
+
+body ol li ol li ul li:nth-child(3){
+    background-color: blue;
+    width: fit-content;
+    color: white;
+}
