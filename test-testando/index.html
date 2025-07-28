@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,33 +7,54 @@
     <title>Document</title>
   </head>
   <body>
-    <form method="get">
-      <!--Focus para caixas de textos-->
-      <ul>
-        <li>
-          <label for="Nome"> Nome </label>
-          <input
-            type="text"
-            placeholder="Seu Nome"
-            id="Nome"
-            name="Nome"
-            required
-          />
-        </li>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Verificação</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Email</th>
+        </tr>
+      </thead>
 
-        <li>
-          <label for="Sexo">Sexo</label>
-          <input
-            type="text"
-            placeholder="Seu Sexo"
-            id="Sexo"
-            name="Sexo"
-            required
-          />
-        </li>
-      </ul>
-
-      <button type="submit">ENVIAR</button>
-    </form>
+      <tfoot>
+        <tr>
+          <td>
+            <input type="checkbox" />
+          </td>
+          <td>JHON Doe</td>
+          <td>jogndoe@exemple.com</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" />
+          </td>
+          <td>Jane Smith</td>
+          <td>Janesmith@example.com</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" />
+          </td>
+          <td>Michael Johnson</td>
+          <td>michaeljohnson@example.com</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" />
+          </td>
+          <td>Sarah Williamns</td>
+          <td>sarawilliamns@example.com</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" />
+          </td>
+          <td>David Brown
+            <p>Olá, amigo!</p>
+          </td>
+          <td>davidbrown@example.com</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
