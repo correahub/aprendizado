@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+summary{
+    background-color: red;
+    text-align: center;
+    width: 100%
+}
+
+details{
+    background-color: yellow;
+    width: 20%
+}
+
+
+details summary{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    padding-bottom: 10px;
+}
