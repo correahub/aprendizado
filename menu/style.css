@@ -1,43 +1,26 @@
-@charset "UTF-8";
-
-html{
-    height: 100%;
-}
-body{
-    min-height: 100%;
-}
-
 main{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: lightblue;
-}
-
-summary{
-    background-color: red;
-    text-align: center;
-    width: 100%
-}
-
-details{
-    background-color: yellow;
-    width: 20%
-}
-
-
-details summary{
-    list-style: none;
-}
-
-ul{
-    list-style: none;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-li{
-    padding-bottom: 10px;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+div:hover {
+
+    transform:  translate(100%, 400%) rotate(360deg) scale(2);
+    transition: 1s ease-in;
+}
+
+details::details-content:hover{
+    background-color: red;
+    color: white;
+
+    transform: translate(500%, 10%) rotate(360deg) scale(2);
+    transition: 1s ease-in;
 }
