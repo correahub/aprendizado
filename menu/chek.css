@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label > span {
+  background-color: lime;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+
+span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+
+input[type="radio"]:checked + label > span > div:first-child {
+  display: inline-block;
+  width: 1em; /* tamanho */
+  height: 0.5em;
+  border-bottom: 3px solid; /* perna longa */
+  border-left: 3px solid; /* perna curta */
+  transform: translateX(5px) rotate(-45deg);
+  transform-origin: left bottom;
+  color: #ffffff;
+  box-sizing: border-box;
+}
