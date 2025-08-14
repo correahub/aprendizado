@@ -25,7 +25,7 @@ input[type="radio"]:checked + label > span {
 input[type="radio"]:checked + label > span::before{
   content: "";
   display: block;
-  border: 0.076em solid white;
+  border: 0.097em solid white;
   box-shadow: 1px 1px 1px rgb(255, 255, 255);
 
   position: absolute;
