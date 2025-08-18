@@ -1,44 +1,18 @@
-body {
-  background-color: rgb(119, 74, 74);
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
 }
 
-label > input[type="radio"] {
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    opacity: 0;
+.div1:hover {
+  transform: translate(300px) rotate(360deg);
+
+  transition: 2s;
 }
 
-label > input[type="radio"] + span {
-  content: "";
-  display: inline-block;
-  font-size: 5vh;
-  width: 1em;
-  height: 1em;
-  background-color: rgb(255, 255, 255);
-  position: relative;
-  border: 2px solid black;
-
-}
-
-label > input[type="radio"]:checked + span {
-  background-color: rgba(89, 235, 89, 0.774);
-  transition: 1s;
-  border-color: transparent;
-}
-
-label > input[type="radio"]:checked + span::before {
-  content: "";
-  border: 0.12em solid white;
-  border-top-color: transparent;
-  border-left-color: transparent;
-  display: block;
-  position: absolute;
-  top: 0.16em;
-  left: 0.4em;
-  right: 0.28em;
-  bottom: 0.24em;
-
-  transform: rotate(45deg);
+.div0 {
+  background-color: lightslategray;
+  width: 400px;
+  border-radius: 50px;
 }
